@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  home:
+    container_name: home
+    image: httpd:latest
+    ports:
+      - "80:80"
+
+  home_nginx:
+    container_name: home_nginx
+    image: nginx:latest
+    ports:
+      - "3000:80"
