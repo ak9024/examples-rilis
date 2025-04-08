@@ -8,7 +8,5 @@
 - [ ] rhel
 - [x] windows
 
-test
-
 
 
